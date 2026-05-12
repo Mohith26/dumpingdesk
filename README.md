@@ -38,3 +38,9 @@ npm run dev
 ```
 
 The frontend expects the API at `http://localhost:8000` unless `NEXT_PUBLIC_API_BASE_URL` is set.
+
+## Railway
+
+For a quick hosted test, deploy the repository root on Railway. The root `Dockerfile`
+builds and starts the web app. For the full two-service setup, deploy `apps/web`
+and `services/api` as separate Railway services. See `docs/railway-deployment.md`.
